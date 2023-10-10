@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import { HeaderBar, LinkCart, LinkItem, Links } from './styles'
+import { HeaderBar, Links, LinkItem, LinkCart } from './styles'
 
 import logo from '../../assets/images/logo.svg'
 import carrinho from '../../assets/images/carrinho.svg'
@@ -26,8 +26,8 @@ const Header = () => (
       </nav>
     </div>
     <LinkCart href="#">
-      0-produto(s)
-      <img src={carrinho} alt="carrinho de compras" />
+      0 - produto(s)
+      <img src={carrinho} alt="Carrinho" />
     </LinkCart>
   </HeaderBar>
 )

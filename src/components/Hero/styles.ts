@@ -41,7 +41,7 @@ export const Banner = styled.div`
 
 export const Infos = styled.div`
   padding: 16px;
-  background-color: ${cores.preto};
+  background-color: ${cores.preta};
   max-width: 290px;
   font-weight: bold;
 

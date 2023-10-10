@@ -4,6 +4,7 @@ import { cores } from '../../styles'
 export const Items = styled.ul`
   display: flex;
 `
+
 export const Action = styled.div`
   position: absolute;
   top: 0;
@@ -23,7 +24,7 @@ export const Item = styled.li`
   position: relative;
 
   > img {
-    border: 2px solid ${cores.branco};
+    border: 2px solid ${cores.branca};
     border-radius: 8px;
     width: 150px;
     height: 150px;
@@ -77,6 +78,10 @@ export const ModalContent = styled.div`
       font-size: 18px;
       font-weight: bold;
     }
+  }
+
+  > img {
+    width: 100%;
   }
 
   img,

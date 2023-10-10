@@ -4,7 +4,7 @@ import Header from './components/Header'
 import { GlobalCss } from './styles'
 
 import Rotas from './routes'
-import Footer from './Footer'
+import Footer from './components/Footer'
 
 function App() {
   return (

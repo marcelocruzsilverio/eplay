@@ -6,13 +6,12 @@ export const HeaderBar = styled.header`
   padding: 24px;
   border-radius: 16px;
   margin-bottom: 80px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   a {
-    color: ${cores.branco};
+    color: ${cores.branca};
     text-decoration: none;
     font-weight: bold;
   }
@@ -22,6 +21,7 @@ export const HeaderBar = styled.header`
     align-items: center;
   }
 `
+
 export const Links = styled.ul`
   display: flex;
   margin-left: 40px;
@@ -33,7 +33,6 @@ export const LinkItem = styled.li`
 
 export const LinkCart = styled.a`
   display: flex;
-  align-items: center;
 
   img {
     margin-left: 16px;

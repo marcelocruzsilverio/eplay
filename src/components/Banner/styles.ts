@@ -34,13 +34,14 @@ export const Imagem = styled.div`
     content: '';
   }
 `
+
 export const Titulo = styled.h2`
   font-size: 36px;
   max-width: 450px;
 `
+
 export const Precos = styled.p`
   font-size: 24px;
-  max-width: 232px;
   margin-top: 24px;
 
   span {
